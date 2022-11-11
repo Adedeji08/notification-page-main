@@ -1,0 +1,15 @@
+
+<div class="notify-div">
+   <section class="header">
+        <div style="display: flex;">
+            <h2 class="notify">Notification
+            </h2>
+            <span class="count">{{notificationNum}}</span>
+        </div>
+        <p class="p-notify" (click)="read()" >Mark all as read</p>
+    </section>
+    <div *ngFor="let card of cards">
+        <app-notification-cards [card]="card" ></app-notification-cards>
+    </div>
+   
+</div>
