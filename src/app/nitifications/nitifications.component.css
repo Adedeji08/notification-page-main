@@ -36,12 +36,44 @@
     }
      /* MOBILE */
     @media (max-width: 960px) {
+        .notify{
+            padding: 10px 20px;
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 1000;
+           }
+        .header{
+            display: flex;
+             justify-content: space-between;
+        }
         .notify-div{
             background-color: hsl(0, 0%, 100%);
             width: 80%;
             margin-left: auto;
             margin-right: auto;
             margin-top: 50px;
+        }
+        .p-notify{
+            padding:  20px;
+            font-family: 'Plus Jakarta Sans';
+            font-size: 10px;
+            font-weight: 600;
+            cursor: pointer;
+           }
+           .p-notify:hover{
+           color: hsl(219, 85%, 26%)
+           }
+           .count{
+            background-color:  hsl(219, 85%, 26%);
+            color: hsl(0, 0%, 100%);
+            border-radius: 5px;
+            font-size: 13px;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            margin-top: 22px;
+            padding-top: -5px;
+            font-weight: 600;
+            /* margin-right: 47px; */
         }
     }
     .count{
